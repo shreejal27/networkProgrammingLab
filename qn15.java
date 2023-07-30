@@ -1,0 +1,1 @@
+//Write a program to set cookieManager cookie policy to accept all the cookies.
