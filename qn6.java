@@ -1,9 +1,8 @@
 // Write a program to check version of the IP address
 import java.net.*;
-
 public class qn6 {
     public static void main(String[] args) {
-        String ipAddress = "192.168.0.1"; // Replace with the IP address you want to check
+        String ipAddress = "192.168.0.1"; 
         
         try {
             InetAddress address = InetAddress.getByName(ipAddress);

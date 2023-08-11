@@ -1,7 +1,5 @@
 //Write a program to display IP address of localhost.
-
 import java.net.*;
-
 public class qn1 {
     public static void main(String[] args) {
         try {

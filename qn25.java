@@ -7,8 +7,7 @@ import java.net.URL;
 public class qn25 {
 
     public static void main(String[] args) {
-        String domainName = "example.com"; // Replace with the domain name you want to connect to
-
+        String domainName = "google.com"; 
         try {
             URL url = new URL("https://" + domainName);
 

@@ -4,7 +4,7 @@ import java.nio.ByteBuffer;
 public class qn29 {
 
     public static void main(String[] args) {
-        int bufferSize = 10; // Size of the ByteBuffer
+        int bufferSize = 20; // Size of the ByteBuffer
         ByteBuffer buffer = ByteBuffer.allocate(bufferSize);
 
         // Filling the buffer

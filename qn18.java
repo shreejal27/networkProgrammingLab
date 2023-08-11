@@ -7,7 +7,7 @@ import java.net.URLConnection;
 
 public class qn18 {
     public static void main(String[] args) {
-        String urlToDownload = "https://www.example.com"; // Replace this with the URL of the webpage you want to download
+        String urlToDownload = "https://www.google.com"; 
 
         try {
             String webpageContent = downloadWebPage(urlToDownload);

@@ -7,7 +7,7 @@ public class qn19 {
     public static void main(String[] args) {
 
         try{
-            URL u = new URL("https://www.example.com");
+            URL u = new URL("https://www.facebook.com");
             URLConnection uc = u.openConnection();
             System.out.println("Content-Type: " + uc.getContentType());
             

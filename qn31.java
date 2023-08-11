@@ -1,7 +1,6 @@
 // Write a program to demonstrate a UDP Multicast Socket that receives UDP Multicast messages.
 import java.io.*;
 import java.net.*;
-import java.util.*;
 
 public class qn31{
     public static void main(String[] args) {

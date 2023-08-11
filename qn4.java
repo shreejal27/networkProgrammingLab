@@ -4,7 +4,7 @@ import java.net.InetAddress;
 public class qn4 {
     public static void main(String[] args) {
         try {
-            String url = "www.example.com"; // Replace with the desired website URL
+            String url = "www.google.com"; 
             
             InetAddress address = InetAddress.getByName(url);
             String hostAddress = address.getHostAddress();

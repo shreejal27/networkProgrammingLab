@@ -4,7 +4,7 @@ import java.net.*;
 public class qn20{
     public static void main(String[] args) {
         try{
-            URL u = new URL("https://www.example.com");
+            URL u = new URL("https://www.google.com");
             HttpURLConnection huc = (HttpURLConnection) u.openConnection();
             for(int i=0; i<=7; i++){
                 System.out.println(huc.getHeaderFieldKey(i) + " = " + huc.getHeaderField(i));

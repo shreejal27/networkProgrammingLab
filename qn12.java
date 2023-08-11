@@ -1,4 +1,3 @@
-
 //Write a program that communicates with server through GET 
 import java.io.*;
 import java.net.*;
@@ -6,7 +5,7 @@ import java.net.*;
 public class qn12 {
 
     public static void main(String[] args) {
-        String serverUrl = "http://www.example.com"; // Replace with the URL of the server
+        String serverUrl = "http://www.google.com"; 
 
         try {
             String response = sendGetRequest(serverUrl);

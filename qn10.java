@@ -9,13 +9,13 @@ public class qn10 {
 
         try {
             URL url = new URL(urlString);
-            System.out.println("URL is" + url.toString());
-            System.out.println("protocol is" + url.getProtocol());
-            System.out.println("file is" + url.getFile());
-            System.out.println("host is" + url.getHost());
-            System.out.println("path is" + url.getPath());
-            System.out.println("port is" + url.getPort());
-            System.out.println("user is" + url.getUserInfo());
+            System.out.println("URL is " + url.toString());
+            System.out.println("protocol is " + url.getProtocol());
+            System.out.println("file is " + url.getFile());
+            System.out.println("host is " + url.getHost());
+            System.out.println("path is " + url.getPath());
+            System.out.println("port is " + url.getPort());
+            System.out.println("user is " + url.getUserInfo());
 
         } catch (MalformedURLException e) {
             e.printStackTrace();

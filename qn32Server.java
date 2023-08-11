@@ -6,8 +6,8 @@ public class qn32Server {
     public static void main(String[] args) {
         try {
             qn32Adder stub = new qn32AdderImpl();
-            LocateRegistry.createRegistry(5000); // Specify the RMI registry port
-            Naming.rebind("rmi://localhost:5000/AdderService", stub); // Use the same name in the client
+            LocateRegistry.createRegistry(1098); 
+            Naming.rebind("rmi://localhost:1098/AdderService", stub); 
 
         } catch (Exception e) {
             e.printStackTrace();

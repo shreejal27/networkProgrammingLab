@@ -1,4 +1,5 @@
 //write a program to process web server logfiles.
+//not working
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -8,7 +9,7 @@ import java.util.Map;
 public class qn9 {
 
     public static void main(String[] args) {
-        String logFilePath = "path/to/your/webserver/logfile.log";
+        String logFilePath = "www.example.com/logfile.txt";
         
         try {
             Map<String, Integer> ipAddressCount = processLogFile(logFilePath);

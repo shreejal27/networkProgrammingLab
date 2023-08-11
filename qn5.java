@@ -1,11 +1,8 @@
-
 //Write a program to get IPv4 and IPv6 address of a given hostname.
-import java.net.InetAddress;
-import java.net.UnknownHostException;
-
+import java.net.*;
 public class qn5 {
     public static void main(String[] args) {
-        String hostname = "www.example.com"; // Replace with the desired hostname
+        String hostname = "www.facebook.com"; 
 
         try {
             InetAddress[] addresses = InetAddress.getAllByName(hostname);

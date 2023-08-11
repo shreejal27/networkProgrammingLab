@@ -1,4 +1,3 @@
-
 //Write a client and server program for text messaging.
 // Client:
 import java.io.*;

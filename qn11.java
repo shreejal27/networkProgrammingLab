@@ -1,10 +1,11 @@
+//Write a program to download a web page of a given webaddress
 import java.io.*;
 import java.net.*;
 
 public class qn11 {
 
     public static void main(String[] args) {
-        String webAddress = "https://www.example.com"; // Replace with the desired web address
+        String webAddress = "https://www.google.com"; // Replace with the desired web address
 
         try {
             String webpageContent = downloadWebPage(webAddress);

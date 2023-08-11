@@ -1,9 +1,6 @@
 //Write a program to display MAC address of the host.
-import java.net.InetAddress;
-import java.net.NetworkInterface;
-import java.net.SocketException;
-import java.net.UnknownHostException;
-class Main {
+import java.net.*;
+public class qn3 {
   public static void main(String[] args) {
     try {
       InetAddress address = InetAddress.getLocalHost();
@@ -11,8 +8,8 @@ class Main {
       String macAddress = "";
 
       //Get MAC Address
-      NetworkInterface network = NetworkInterface.getByInetAddress(address);
-      byte[] macArray = network.getHardwareAddress();
+      NetworkInterface ni = NetworkInterface.getByInetAddress(address);
+      byte[] macArray = ni.getHardwareAddress();
       StringBuilder str = new StringBuilder();
       // Convert the macArray to String
       for (int i = 0; i < macArray.length; i++) {
